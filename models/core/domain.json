@@ -1,0 +1,25 @@
+{
+  "states": [
+    "intent_ask_mood",
+    "intent_ask_recipy",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_mood_happy",
+    "intent_mood_unhappy",
+    "entity_cake",
+    "slot_cake_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_utter_cheer_up",
+    "prev_action_recipy",
+    "prev_utter_happy",
+    "prev_utter_happy_mood",
+    "prev_utter_goodbye",
+    "prev_utter_greet"
+  ]
+}

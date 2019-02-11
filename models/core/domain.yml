@@ -1,0 +1,46 @@
+%YAML 1.1
+---
+actions:
+- utter_cheer_up
+- action_recipy
+- utter_happy
+- utter_happy_mood
+- utter_goodbye
+- utter_greet
+config:
+  store_entities_as_slots: true
+entities:
+- cake
+forms: []
+intents:
+- ask_mood:
+    use_entities: true
+- ask_recipy:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- greet:
+    use_entities: true
+- mood_happy:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+slots:
+  cake:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_cheer_up:
+  - text: Don't be sad. Keep smiling!
+  utter_goodbye:
+  - text: Goodbye!
+  - text: See you!
+  utter_greet:
+  - text: Hi, how is it going?
+  - text: Hey, what's up?
+  utter_happy:
+  - text: Great, carry on!
+  utter_happy_mood:
+  - text: I'm good, thanks, which recipy do you want to know?
+  - text: I'm fine, how can I help you?

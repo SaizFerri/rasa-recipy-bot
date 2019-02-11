@@ -1,0 +1,35 @@
+%YAML 1.1
+---
+actions:
+- utter_cheer_up
+- action_recipy
+- utter_happy
+- utter_happy_mood
+- utter_goodbye
+- utter_greet
+entities:
+- cake
+intents:
+- ask_mood
+- ask_recipy
+- goodbye
+- greet
+- mood_happy
+- mood_unhappy
+slots:
+  cake:
+    type: text
+templates:
+  utter_cheer_up:
+  - text: Don't be sad. Keep smiling!
+  utter_goodbye:
+  - text: Goodbye!
+  - text: See you!
+  utter_greet:
+  - text: Hi, how is it going?
+  - text: Hey, what's up?
+  utter_happy:
+  - text: Great, carry on!
+  utter_happy_mood:
+  - text: I'm good, thanks, which recipy do you want to know?
+  - text: I'm fine, how can I help you?

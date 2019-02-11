@@ -1,0 +1,2007 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "heyo"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I am feeling very good"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "great"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "all good"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "amazing"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "perfect"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "very good"
+      },
+      {
+        "intent": "mood_happy",
+        "text": "I'm good 😃"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "unhappy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "terrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "awful"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "so sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "extremely sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not very good"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "correct correct"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "oki"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no way"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "not really"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "never"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "ask_mood",
+        "text": "How are you?"
+      },
+      {
+        "intent": "ask_mood",
+        "text": "What's up?"
+      },
+      {
+        "intent": "ask_mood",
+        "text": "How are you doing?"
+      },
+      {
+        "intent": "ask_mood",
+        "text": "How is it going?"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "cake",
+            "start": 25,
+            "value": "tiramisu"
+          }
+        ],
+        "text": "what is the recipy for a tiramisu"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "cake",
+            "start": 29,
+            "value": "Birthday cake"
+          }
+        ],
+        "text": "do you have the recipy for a Birthday cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "cake",
+            "start": 29,
+            "value": "Ice cream cake"
+          }
+        ],
+        "text": "do you know the recipy for a Ice cream cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "cake",
+            "start": 29,
+            "value": "cream"
+          }
+        ],
+        "text": "do you know the recipy for a cream"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "cake",
+            "start": 23,
+            "value": "cheese cake"
+          }
+        ],
+        "text": "i would like to bake a cheese cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "cake",
+            "start": 25,
+            "value": "Boston cream pie"
+          }
+        ],
+        "text": "what is the recipy for a Boston cream pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cake",
+            "start": 17,
+            "value": "Brownie"
+          }
+        ],
+        "text": "how can i bake a Brownie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "cake",
+            "start": 33,
+            "value": "Banana cake"
+          }
+        ],
+        "text": "do you know the recipy to make a Banana cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cake",
+            "start": 17,
+            "value": "Banana cake"
+          }
+        ],
+        "text": "i want to bake a Banana cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 25,
+            "value": "Banana cake"
+          }
+        ],
+        "text": "give me the recipy for a Banana cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "cake",
+            "start": 17,
+            "value": "Boston cream pie"
+          }
+        ],
+        "text": "i want to bake a Boston cream pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "cake",
+            "start": 25,
+            "value": "Brownie"
+          }
+        ],
+        "text": "what is the recipy for a Brownie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "cake",
+            "start": 29,
+            "value": "chocolate cake"
+          }
+        ],
+        "text": "do you have the recipy for a chocolate cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cake",
+            "start": 17,
+            "value": "Cupcake"
+          }
+        ],
+        "text": "how can i bake a Cupcake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cake",
+            "start": 17,
+            "value": "cream"
+          }
+        ],
+        "text": "i want to bake a cream"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "cake",
+            "start": 17,
+            "value": "chocolate cake"
+          }
+        ],
+        "text": "i want to bake a chocolate cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "cake",
+            "start": 29,
+            "value": "Baumkuchen"
+          }
+        ],
+        "text": "do you know the recipy for a Baumkuchen"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "cake",
+            "start": 33,
+            "value": "Avocado cake"
+          }
+        ],
+        "text": "do you know the recipy to make a Avocado cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "cake",
+            "start": 23,
+            "value": "Banana bread"
+          }
+        ],
+        "text": "i would like to bake a Banana bread"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 25,
+            "value": "cheese cake"
+          }
+        ],
+        "text": "what is the recipy for a cheese cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "cake",
+            "start": 23,
+            "value": "Avocado cake"
+          }
+        ],
+        "text": "i would like to bake a Avocado cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "cake",
+            "start": 33,
+            "value": "Angel cake"
+          }
+        ],
+        "text": "do you know the recipy to make a Angel cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "cake",
+            "start": 29,
+            "value": "Avocado cake"
+          }
+        ],
+        "text": "do you know the recipy for a Avocado cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "cake",
+            "start": 29,
+            "value": "Coconut cake"
+          }
+        ],
+        "text": "do you have the recipy for a Coconut cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "cake",
+            "start": 25,
+            "value": "Ice cream cake"
+          }
+        ],
+        "text": "what is the recipy for a Ice cream cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "cake",
+            "start": 17,
+            "value": "Ice cream cake"
+          }
+        ],
+        "text": "i want to bake a Ice cream cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 29,
+            "value": "Gingerbread"
+          }
+        ],
+        "text": "do you have the recipy for a Gingerbread"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "cake",
+            "start": 17,
+            "value": "raspberry pie"
+          }
+        ],
+        "text": "i want to bake a raspberry pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "cake",
+            "start": 29,
+            "value": "Ice cream cake"
+          }
+        ],
+        "text": "do you have the recipy for a Ice cream cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cake",
+            "start": 17,
+            "value": "Butterkuchen"
+          }
+        ],
+        "text": "how can i bake a Butterkuchen"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "cake",
+            "start": 25,
+            "value": "raspberry pie"
+          }
+        ],
+        "text": "what is the recipy for a raspberry pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 29,
+            "value": "Coffee cake"
+          }
+        ],
+        "text": "do you know the recipy for a Coffee cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "cake",
+            "start": 29,
+            "value": "Boston cream pie"
+          }
+        ],
+        "text": "do you have the recipy for a Boston cream pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 29,
+            "value": "carrot cake"
+          }
+        ],
+        "text": "do you have the recipy for a carrot cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "cake",
+            "start": 29,
+            "value": "Coconut cake"
+          }
+        ],
+        "text": "do you know the recipy for a Coconut cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 23,
+            "value": "raspberry pie"
+          }
+        ],
+        "text": "i would like to bake a raspberry pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "cake",
+            "start": 33,
+            "value": "vainilla cake"
+          }
+        ],
+        "text": "do you know the recipy to make a vainilla cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "cake",
+            "start": 23,
+            "value": "Butter cake"
+          }
+        ],
+        "text": "i would like to bake a Butter cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cake",
+            "start": 17,
+            "value": "Avocado cake"
+          }
+        ],
+        "text": "i want to bake a Avocado cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 25,
+            "value": "carrot cake"
+          }
+        ],
+        "text": "what is the recipy for a carrot cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 23,
+            "value": "vainilla cake"
+          }
+        ],
+        "text": "i would like to bake a vainilla cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "cake",
+            "start": 23,
+            "value": "chocolate cake"
+          }
+        ],
+        "text": "i would like to bake a chocolate cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "cake",
+            "start": 25,
+            "value": "tiramisu"
+          }
+        ],
+        "text": "give me the recipy for a tiramisu"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cake",
+            "start": 17,
+            "value": "Banana cake"
+          }
+        ],
+        "text": "how can i bake a Banana cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "cake",
+            "start": 29,
+            "value": "raspberry pie"
+          }
+        ],
+        "text": "do you have the recipy for a raspberry pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "cake",
+            "start": 29,
+            "value": "Boston cream pie"
+          }
+        ],
+        "text": "do you know the recipy for a Boston cream pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "cake",
+            "start": 25,
+            "value": "applepie"
+          }
+        ],
+        "text": "give me the recipy for a applepie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "cake",
+            "start": 23,
+            "value": "Cupcake"
+          }
+        ],
+        "text": "i would like to bake a Cupcake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "cake",
+            "start": 25,
+            "value": "Cupcake"
+          }
+        ],
+        "text": "give me the recipy for a Cupcake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cake",
+            "start": 17,
+            "value": "Butter cake"
+          }
+        ],
+        "text": "how can i bake a Butter cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 29,
+            "value": "Banana cake"
+          }
+        ],
+        "text": "do you know the recipy for a Banana cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "cake",
+            "start": 33,
+            "value": "cream"
+          }
+        ],
+        "text": "do you know the recipy to make a cream"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "cake",
+            "start": 25,
+            "value": "Butterkuchen"
+          }
+        ],
+        "text": "give me the recipy for a Butterkuchen"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cake",
+            "start": 17,
+            "value": "Banana bread"
+          }
+        ],
+        "text": "how can i bake a Banana bread"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "cake",
+            "start": 29,
+            "value": "chocolate cake"
+          }
+        ],
+        "text": "do you know the recipy for a chocolate cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "cake",
+            "start": 25,
+            "value": "Brownie"
+          }
+        ],
+        "text": "give me the recipy for a Brownie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 29,
+            "value": "Cupcake"
+          }
+        ],
+        "text": "do you have the recipy for a Cupcake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "cake",
+            "start": 25,
+            "value": "Avocado cake"
+          }
+        ],
+        "text": "what is the recipy for a Avocado cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "cake",
+            "start": 23,
+            "value": "Ice cream cake"
+          }
+        ],
+        "text": "i would like to bake a Ice cream cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 23,
+            "value": "Birthday cake"
+          }
+        ],
+        "text": "i would like to bake a Birthday cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "cake",
+            "start": 29,
+            "value": "vainilla cake"
+          }
+        ],
+        "text": "do you have the recipy for a vainilla cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "cake",
+            "start": 33,
+            "value": "Baumkuchen"
+          }
+        ],
+        "text": "do you know the recipy to make a Baumkuchen"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 29,
+            "value": "Butter cake"
+          }
+        ],
+        "text": "do you have the recipy for a Butter cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 29,
+            "value": "Gingerbread"
+          }
+        ],
+        "text": "do you know the recipy for a Gingerbread"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "cake",
+            "start": 17,
+            "value": "vainilla cake"
+          }
+        ],
+        "text": "i want to bake a vainilla cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "cake",
+            "start": 25,
+            "value": "vainilla cake"
+          }
+        ],
+        "text": "what is the recipy for a vainilla cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "cake",
+            "start": 25,
+            "value": "Birthday cake"
+          }
+        ],
+        "text": "give me the recipy for a Birthday cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "cake",
+            "start": 17,
+            "value": "chocolate cake"
+          }
+        ],
+        "text": "how can i bake a chocolate cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cake",
+            "start": 17,
+            "value": "carrot cake"
+          }
+        ],
+        "text": "i want to bake a carrot cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "cake",
+            "start": 25,
+            "value": "Baumkuchen"
+          }
+        ],
+        "text": "give me the recipy for a Baumkuchen"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "cake",
+            "start": 29,
+            "value": "Avocado cake"
+          }
+        ],
+        "text": "do you have the recipy for a Avocado cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "cake",
+            "start": 17,
+            "value": "Baumkuchen"
+          }
+        ],
+        "text": "i want to bake a Baumkuchen"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "cake",
+            "start": 23,
+            "value": "Baumkuchen"
+          }
+        ],
+        "text": "i would like to bake a Baumkuchen"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "cake",
+            "start": 33,
+            "value": "tiramisu"
+          }
+        ],
+        "text": "do you know the recipy to make a tiramisu"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "cake",
+            "start": 29,
+            "value": "raspberry pie"
+          }
+        ],
+        "text": "do you know the recipy for a raspberry pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "cake",
+            "start": 33,
+            "value": "Coffee cake"
+          }
+        ],
+        "text": "do you know the recipy to make a Coffee cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "cake",
+            "start": 33,
+            "value": "applepie"
+          }
+        ],
+        "text": "do you know the recipy to make a applepie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "cake",
+            "start": 29,
+            "value": "cream"
+          }
+        ],
+        "text": "do you have the recipy for a cream"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "cake",
+            "start": 33,
+            "value": "Butterkuchen"
+          }
+        ],
+        "text": "do you know the recipy to make a Butterkuchen"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 29,
+            "value": "Banana cake"
+          }
+        ],
+        "text": "do you have the recipy for a Banana cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 29,
+            "value": "Brownie"
+          }
+        ],
+        "text": "do you know the recipy for a Brownie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 29,
+            "value": "Coffee cake"
+          }
+        ],
+        "text": "do you have the recipy for a Coffee cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "cake",
+            "start": 33,
+            "value": "strawberry cake"
+          }
+        ],
+        "text": "do you know the recipy to make a strawberry cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 25,
+            "value": "Coffee cake"
+          }
+        ],
+        "text": "give me the recipy for a Coffee cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cake",
+            "start": 17,
+            "value": "Coconut cake"
+          }
+        ],
+        "text": "i want to bake a Coconut cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "cake",
+            "start": 33,
+            "value": "Boston cream pie"
+          }
+        ],
+        "text": "do you know the recipy to make a Boston cream pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "cake",
+            "start": 33,
+            "value": "carrot cake"
+          }
+        ],
+        "text": "do you know the recipy to make a carrot cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "cake",
+            "start": 25,
+            "value": "Banana bread"
+          }
+        ],
+        "text": "what is the recipy for a Banana bread"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 29,
+            "value": "cheese cake"
+          }
+        ],
+        "text": "do you have the recipy for a cheese cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 29,
+            "value": "carrot cake"
+          }
+        ],
+        "text": "do you know the recipy for a carrot cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cake",
+            "start": 17,
+            "value": "Gingerbread"
+          }
+        ],
+        "text": "how can i bake a Gingerbread"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cake",
+            "start": 17,
+            "value": "cream"
+          }
+        ],
+        "text": "how can i bake a cream"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 25,
+            "value": "strawberry cake"
+          }
+        ],
+        "text": "what is the recipy for a strawberry cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "cake",
+            "start": 25,
+            "value": "Coconut cake"
+          }
+        ],
+        "text": "what is the recipy for a Coconut cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cake",
+            "start": 17,
+            "value": "applepie"
+          }
+        ],
+        "text": "how can i bake a applepie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "cake",
+            "start": 29,
+            "value": "tiramisu"
+          }
+        ],
+        "text": "do you know the recipy for a tiramisu"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "cake",
+            "start": 29,
+            "value": "strawberry cake"
+          }
+        ],
+        "text": "do you have the recipy for a strawberry cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 25,
+            "value": "Gingerbread"
+          }
+        ],
+        "text": "what is the recipy for a Gingerbread"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 25,
+            "value": "Butter cake"
+          }
+        ],
+        "text": "give me the recipy for a Butter cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "cake",
+            "start": 25,
+            "value": "Avocado cake"
+          }
+        ],
+        "text": "give me the recipy for a Avocado cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "cake",
+            "start": 25,
+            "value": "Banana bread"
+          }
+        ],
+        "text": "give me the recipy for a Banana bread"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "cake",
+            "start": 25,
+            "value": "vainilla cake"
+          }
+        ],
+        "text": "give me the recipy for a vainilla cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "cake",
+            "start": 25,
+            "value": "Baumkuchen"
+          }
+        ],
+        "text": "what is the recipy for a Baumkuchen"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "cake",
+            "start": 29,
+            "value": "Banana bread"
+          }
+        ],
+        "text": "do you have the recipy for a Banana bread"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cake",
+            "start": 17,
+            "value": "cheese cake"
+          }
+        ],
+        "text": "i want to bake a cheese cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cake",
+            "start": 17,
+            "value": "Avocado cake"
+          }
+        ],
+        "text": "how can i bake a Avocado cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cake",
+            "start": 17,
+            "value": "carrot cake"
+          }
+        ],
+        "text": "how can i bake a carrot cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "cake",
+            "start": 17,
+            "value": "Birthday cake"
+          }
+        ],
+        "text": "how can i bake a Birthday cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "cake",
+            "start": 17,
+            "value": "Ice cream cake"
+          }
+        ],
+        "text": "how can i bake a Ice cream cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "cake",
+            "start": 23,
+            "value": "tiramisu"
+          }
+        ],
+        "text": "i would like to bake a tiramisu"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 33,
+            "value": "Brownie"
+          }
+        ],
+        "text": "do you know the recipy to make a Brownie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "cake",
+            "start": 17,
+            "value": "Birthday cake"
+          }
+        ],
+        "text": "i want to bake a Birthday cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 25,
+            "value": "Coffee cake"
+          }
+        ],
+        "text": "what is the recipy for a Coffee cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "cake",
+            "start": 33,
+            "value": "raspberry pie"
+          }
+        ],
+        "text": "do you know the recipy to make a raspberry pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "cake",
+            "start": 17,
+            "value": "raspberry pie"
+          }
+        ],
+        "text": "how can i bake a raspberry pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "cake",
+            "start": 25,
+            "value": "cream"
+          }
+        ],
+        "text": "give me the recipy for a cream"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 29,
+            "value": "Cupcake"
+          }
+        ],
+        "text": "do you know the recipy for a Cupcake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cake",
+            "start": 17,
+            "value": "Butterkuchen"
+          }
+        ],
+        "text": "i want to bake a Butterkuchen"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "cake",
+            "start": 29,
+            "value": "Angel cake"
+          }
+        ],
+        "text": "do you have the recipy for a Angel cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "cake",
+            "start": 33,
+            "value": "chocolate cake"
+          }
+        ],
+        "text": "do you know the recipy to make a chocolate cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cake",
+            "start": 17,
+            "value": "Coffee cake"
+          }
+        ],
+        "text": "i want to bake a Coffee cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 25,
+            "value": "Butter cake"
+          }
+        ],
+        "text": "what is the recipy for a Butter cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "cake",
+            "start": 25,
+            "value": "chocolate cake"
+          }
+        ],
+        "text": "give me the recipy for a chocolate cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "cake",
+            "start": 25,
+            "value": "Coconut cake"
+          }
+        ],
+        "text": "give me the recipy for a Coconut cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "cake",
+            "start": 17,
+            "value": "Baumkuchen"
+          }
+        ],
+        "text": "how can i bake a Baumkuchen"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "cake",
+            "start": 25,
+            "value": "cream"
+          }
+        ],
+        "text": "what is the recipy for a cream"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "cake",
+            "start": 17,
+            "value": "Boston cream pie"
+          }
+        ],
+        "text": "how can i bake a Boston cream pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "cake",
+            "start": 33,
+            "value": "Banana bread"
+          }
+        ],
+        "text": "do you know the recipy to make a Banana bread"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 29,
+            "value": "cheese cake"
+          }
+        ],
+        "text": "do you know the recipy for a cheese cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cake",
+            "start": 29,
+            "value": "Brownie"
+          }
+        ],
+        "text": "do you have the recipy for a Brownie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "cake",
+            "start": 23,
+            "value": "applepie"
+          }
+        ],
+        "text": "i would like to bake a applepie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "cake",
+            "start": 33,
+            "value": "Cupcake"
+          }
+        ],
+        "text": "do you know the recipy to make a Cupcake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "cake",
+            "start": 23,
+            "value": "Banana cake"
+          }
+        ],
+        "text": "i would like to bake a Banana cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "cake",
+            "start": 33,
+            "value": "cheese cake"
+          }
+        ],
+        "text": "do you know the recipy to make a cheese cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "cake",
+            "start": 29,
+            "value": "Butterkuchen"
+          }
+        ],
+        "text": "do you have the recipy for a Butterkuchen"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "cake",
+            "start": 29,
+            "value": "vainilla cake"
+          }
+        ],
+        "text": "do you know the recipy for a vainilla cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cake",
+            "start": 17,
+            "value": "Cupcake"
+          }
+        ],
+        "text": "i want to bake a Cupcake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cake",
+            "start": 17,
+            "value": "cheese cake"
+          }
+        ],
+        "text": "how can i bake a cheese cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "cake",
+            "start": 29,
+            "value": "applepie"
+          }
+        ],
+        "text": "do you have the recipy for a applepie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "cake",
+            "start": 23,
+            "value": "Boston cream pie"
+          }
+        ],
+        "text": "i would like to bake a Boston cream pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "cake",
+            "start": 25,
+            "value": "Boston cream pie"
+          }
+        ],
+        "text": "give me the recipy for a Boston cream pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "cake",
+            "start": 29,
+            "value": "applepie"
+          }
+        ],
+        "text": "do you know the recipy for a applepie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cake",
+            "start": 17,
+            "value": "Coconut cake"
+          }
+        ],
+        "text": "how can i bake a Coconut cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "cake",
+            "start": 17,
+            "value": "vainilla cake"
+          }
+        ],
+        "text": "how can i bake a vainilla cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "cake",
+            "start": 17,
+            "value": "strawberry cake"
+          }
+        ],
+        "text": "how can i bake a strawberry cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "cake",
+            "start": 23,
+            "value": "Coffee cake"
+          }
+        ],
+        "text": "i would like to bake a Coffee cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "cake",
+            "start": 33,
+            "value": "Birthday cake"
+          }
+        ],
+        "text": "do you know the recipy to make a Birthday cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "cake",
+            "start": 29,
+            "value": "Birthday cake"
+          }
+        ],
+        "text": "do you know the recipy for a Birthday cake"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "cake",
+            "start": 29,
+            "value": "Butterkuchen"
+          }
+        ],
+        "text": "do you know the recipy for a Butterkuchen"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "cake",
+            "start": 33,
+            "value": "Coconut cake"
+          }
+        ],
+        "text": "do you know the recipy to make a Coconut cake"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "apple cake",
+        "synonyms": [
+          "apple pie"
+        ]
+      },
+      {
+        "value": "cheese cake",
+        "synonyms": [
+          "cheesecake",
+          "new yorker cheesecake"
+        ]
+      }
+    ]
+  }
+}
