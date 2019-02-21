@@ -1,21 +1,21 @@
 %YAML 1.1
 ---
 actions:
-- utter_cheer_up
+- utter_happy_mood
 - action_recipy
 - utter_happy
-- utter_happy_mood
 - utter_goodbye
 - utter_greet
+- utter_cheer_up
 config:
   store_entities_as_slots: true
 entities:
 - cake
 forms: []
 intents:
-- ask_mood:
-    use_entities: true
 - ask_recipy:
+    use_entities: true
+- ask_mood:
     use_entities: true
 - goodbye:
     use_entities: true

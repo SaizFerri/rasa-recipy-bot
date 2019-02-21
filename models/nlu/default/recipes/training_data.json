@@ -753,6 +753,18 @@
         "intent": "ask_recipy",
         "entities": [
           {
+            "end": 34,
+            "entity": "cake",
+            "start": 25,
+            "value": "apple pie"
+          }
+        ],
+        "text": "give me the recipy for a apple pie"
+      },
+      {
+        "intent": "ask_recipy",
+        "entities": [
+          {
             "end": 30,
             "entity": "cake",
             "start": 23,
@@ -1992,7 +2004,8 @@
       {
         "value": "apple cake",
         "synonyms": [
-          "apple pie"
+          "apple pie",
+          "applepie"
         ]
       },
       {

@@ -25,7 +25,7 @@ services:
       - --endpoints
       - config/endpoints_docker.yml
       - -u
-      - current/
+      - recipes/
   rasa_nlu:
     image: rasa/rasa_nlu:latest-full
     networks: ['rasa-network']
