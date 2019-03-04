@@ -1,6 +1,7 @@
 %YAML 1.1
 ---
 actions:
+- utter_default
 - utter_happy_mood
 - action_recipy
 - utter_happy
@@ -20,6 +21,9 @@ slots:
   cake:
     type: text
 templates:
+  utter_default:
+  - text: Sorry, I didn't get that.
+  - text: Sorry, I don't know what you mean.
   utter_cheer_up:
   - text: Don't be sad. Keep smiling!
   utter_goodbye:

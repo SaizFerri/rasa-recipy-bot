@@ -20,13 +20,12 @@ class ActionRecipy(Action):
       response = "I found this 10 recipes:\n"
       for index, recipe in enumerate(request['recipes']):
         if (index < 10):
-          response = response + "<br> - {}: <a href=\"{}\">{}</a><br>".format(recipe['title'], recipe['source_url'], recipe['source_url'])
+          response = response + '<br> - {}: <a href="{}" class="link" target="_about">{}</a><br>'.format(recipe['title'], recipe['source_url'], recipe['source_url'])
     elif (request['count'] == 0):
       response = "I didn't find any recipes"
     else:
       response = "I found this {} recipes:\n".format(request['count'])
       for index, recipe in enumerate(request['recipes']):
-        response = response + "<br> - {}: <a href=\"{}\" class=\"link\">{}</a><br>".format(recipe['title'], recipe['source_url'], recipe['source_url'])
+        response = response + '<br> - {}: <a href="{}" class="link" target="_about">{}</a><br>'.format(recipe['title'], recipe['source_url'], recipe['source_url'])
 
     dispatcher.utter_message(response)
-    return []

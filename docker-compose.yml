@@ -40,5 +40,14 @@ services:
       - models
       - -c
       - config/nlu_config.yml
+  frontend:
+    image: httpd:2.4
+    networks: ['rasa-network']
+    ports:
+      - 5555:80
+    volumes:
+      - ./frontend:/usr/local/apache2/htdocs/
+      - ./config/apache-config.conf:/etc/apache2/sites-enabled/000-default.conf
+    depends_on: ['rasa_core']
 
 networks: {rasa-network: {}}

@@ -29,18 +29,16 @@
   "python": "3.6.8",
   "max_histories": [
     5,
-    null,
     5,
-    2
+    null
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy",
-    "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.form_policy.FormPolicy"
+    "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190221-150854",
+  "trained_at": "20190226-143834",
   "rasa_core": "0.13.2",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.2"

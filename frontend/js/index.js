@@ -22,13 +22,13 @@ $('.js-action').click(async (e) => {
   e.preventDefault();
   
   let text = $('.js-chat-input').val();
-
-  $('.js-chat-list').append(createPersonMessage(text));
-  $('.js-chat-input').val('');
-
+  
   if (text !== '') {
     const response = await sendMessage(text);
     let responseText = response[0]['text'];
+
+    $('.js-chat-list').append(createPersonMessage(text));
+    $('.js-chat-input').val('');
 
     $('.js-chat-list').append(createBotMessage(responseText));
     $('.js-chat-list').scrollTop($('.js-chat-list').prop('scrollHeight'));
